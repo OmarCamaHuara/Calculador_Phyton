@@ -33,3 +33,4 @@ def send(sum = sum):
         else: 
             return render_template('index.html', sum = sum)
 
+app.run();
